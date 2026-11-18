@@ -3,13 +3,16 @@ using System;
 class Programa {
     static void Main()
     {
+
+        int num1, num2;
+        
         Console.Write("Dgite um número: ");
 
-        int num1 =  int.Parse(Console.ReadLine()!);
+        num1 =  int.Parse(Console.ReadLine()!);
 
         Console.Write("Digite outro: ");
 
-        int num2 = int.Parse(Console.ReadLine()!);
+        num2 = int.Parse(Console.ReadLine()!);
 
         static int Somar(int num1, int num2)
         {

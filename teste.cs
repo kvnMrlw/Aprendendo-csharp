@@ -1,7 +1,7 @@
 using System;
 
-class teste{
-    static void main(){
+class Teste{
+    static void Main(){
         Console.Write("Olá, mundo");
     }
 }
